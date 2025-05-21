@@ -62,7 +62,7 @@ function generar() {
                     let justHtml = ` 
                     <!-- ${datos.name} -->
 <li>
-        <a href="go:lz" tabindex="0" class="block outline-none focus:ring-2 ring-yellow-400 rounded">
+        <a href="go:__N__" tabindex="0" class="block outline-none focus:ring-2 ring-yellow-400 rounded">
           <img src="https://image.tmdb.org/t/p/w500/${datos.poster_path}" alt="poster" class="w-full aspect-[2/3] rounded-lg object-cover mb-2 sm:mb-0">
           <span class="hidden">${datos.name} ${datos.first_air_date.slice(0,4)}
 </span>
@@ -132,7 +132,7 @@ function generar() {
                     let justHtml = `
 					<!--${datos.title} ${datos.release_date.slice(0,4)}-->
 <li>
-        <a href="go:lz" tabindex="0" class="block outline-none focus:ring-2 ring-yellow-400 rounded">
+        <a href="go:__N__" tabindex="0" class="block outline-none focus:ring-2 ring-yellow-400 rounded">
           <img src="https://image.tmdb.org/t/p/w500/${datos.poster_path}" alt="poster" class="w-full aspect-[2/3] rounded-lg object-cover mb-2 sm:mb-0">
           <span class="hidden">${datos.title} ${datos.release_date.slice(0,4)}</span>
           <span class="hidden">${datos.overview}</span>
